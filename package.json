@@ -1,0 +1,15 @@
+{
+  "name": "statement-check",
+  "version": "0.1.0",
+  "description": "Match a delivery report against a carrier statement and find drops that were delivered but not paid.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "statement-check": "bin/statement-check.js" },
+  "files": ["src", "bin", "examples"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["reconciliation", "last-mile", "delivery", "courier", "carrier-statement", "amazon-dsp", "dpd", "evri", "self-billing"],
+  "author": "Lucas Ruiz",
+  "license": "MIT"
+}
